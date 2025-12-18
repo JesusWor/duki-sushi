@@ -15,7 +15,7 @@ export function Contact() {
           </p>
         </div>
 
-        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4 max-w-6xl mx-auto">
+        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto">
           <Card className="p-6 text-center hover:shadow-lg transition-shadow">
             <div className="flex justify-center mb-4">
               <div className="bg-primary text-primary-foreground p-4 rounded-full">
@@ -23,8 +23,8 @@ export function Contact() {
               </div>
             </div>
             <h3 className="text-lg font-bold text-foreground mb-2">{"Teléfono"}</h3>
-            <a href="tel:+526671234567" className="text-primary hover:underline font-medium">
-              {"(667) 123-4567"}
+            <a href="tel:+5216672215915" className="text-primary hover:underline font-medium">
+              {"(667) 221-5915"}
             </a>
           </Card>
 
@@ -36,7 +36,7 @@ export function Contact() {
             </div>
             <h3 className="text-lg font-bold text-foreground mb-2">{"WhatsApp"}</h3>
             <a
-              href="https://wa.me/526671234567"
+              href="https://wa.me/+5216672215915"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary hover:underline font-medium"
@@ -45,7 +45,7 @@ export function Contact() {
             </a>
           </Card>
 
-          <Card className="p-6 text-center hover:shadow-lg transition-shadow">
+          {/* <Card className="p-6 text-center hover:shadow-lg transition-shadow">
             <div className="flex justify-center mb-4">
               <div className="bg-primary text-primary-foreground p-4 rounded-full">
                 <Mail className="h-6 w-6" />
@@ -55,7 +55,7 @@ export function Contact() {
             <a href="mailto:contacto@duki.com" className="text-primary hover:underline font-medium">
               {"contacto@duki.com"}
             </a>
-          </Card>
+          </Card> */}
 
           <Card className="p-6 text-center hover:shadow-lg transition-shadow">
             <div className="flex justify-center mb-4">
